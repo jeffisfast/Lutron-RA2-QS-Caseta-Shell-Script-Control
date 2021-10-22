@@ -1,7 +1,7 @@
 # Lutron-RA2-QS-Caseta-Shell-Script-Control
 Control your Lutron system using a macros, Stream Deck buttons, command lines, etc.
 
-I was looking for a way to map buttons on my Stream Deck to trigger lighting commands.  Lutron doesn't have any computer software to do this, but their integration protocols is pretty simple so I threw this script together.  
+I was looking for a way to map buttons on my Stream Deck to trigger lighting commands.  Lutron doesn't have any computer software to do this, but their integration protocols is pretty simple so I threw this script together.  It uses the 'expect' command which Unix derivatives usually have.  Install it if you don't have it and adjust the path in the script accordingly.
 
 You will need to get your keypad's device id number and button id numbers to make this work.  Substitute those in for the ones I have in the script.  Then just execute this file when you want to do the button press.
 
