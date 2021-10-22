@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# THIS SCRIPT USES THE expect COMMAND.  Install it using 'brew install expect' on a Mac
 # From Lutron's software download the Integration report to get device #s and button #s
 # To simulate a Keypad button press the command is #DEVICE,<keypad #>,<button #>,3
 
